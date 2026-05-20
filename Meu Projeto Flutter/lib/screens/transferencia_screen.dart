@@ -23,13 +23,13 @@ class TransferenciaScreen extends StatelessWidget {
             SizedBox(height: 20),
             TextField(
               controller: conta,
-              style: TextStyle(color: Colors.white), // 👈 TEXTO BRANCO
+              style: TextStyle(color: Colors.white), //  TEXTO BRANCO
               decoration: InputDecoration(
                 labelText: "Conta destino",
                 labelStyle:
-                    TextStyle(color: Colors.white70), // 👈 LABEL VISÍVEL
+                    TextStyle(color: Colors.white70), //  LABEL VISÍVEL
                 filled: true,
-                fillColor: Colors.white10, // 👈 FUNDO DO CAMPO
+                fillColor: Colors.white10, //  FUNDO DO CAMPO
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(15),
                 ),
